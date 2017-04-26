@@ -1,0 +1,1 @@
+name|custom|bg_color|FFFFFF|border_color|333333|main_bg_color|666666|menu_bg_color|666666|inner_border_color|D9D9D9|link_reg_color|FFFFFF|link_hi_color|FF3333|link_down_color|3333FF|header_bg_color|333333|header_txt_color|FFFFFF|footer_bg_color|333333|footer_txt_color|666666|txt_color|000000|headline_txt_color|FFFFFF|date_txt_color|FFFFFF

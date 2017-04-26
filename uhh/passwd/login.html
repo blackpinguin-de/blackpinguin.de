@@ -1,0 +1,39 @@
+<!doctype html public "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head></head>
+<body>
+Bitte geben sie das Passwort ein.
+
+<form action="script.php" method="post">
+<input name="p_passwd" type="password"  size="20" maxlength="10">
+<input type="submit" value="Ok">
+</form>
+
+<br><br>
+<b>Quelltext:</b>
+<br>&lt;form action="script.php" method="post"&gt;
+<br>&lt;input name="p_passwd" type="password"  size="20" maxlength="10"&gt;
+<br>&lt;input type="submit" value="Ok"&gt;
+<br>&lt;/form&gt;
+<br>
+<br>
+<br><b>M&ouml;gliches PHP Script (script.php) zum &uuml;berpr&uuml;fen des Passwortes:</b>
+<br>&lt;?php
+<br>$passwd = $_POST["p_passwd"];
+<br>echo "Ihr eingegebenes Passwort ist: ";
+<br>echo $passwd;
+<br>if($passwd=="test")
+<br>	{
+<br>	echo "\n&lt;br&gt;&lt;br&gt;Das angegebene Passwort ist richtig, damit haben sie Zugrifff.";
+<br>	}
+<br>else
+<br>	{
+<br>	echo "\n&lt;br&gt;&lt;br&gt;Das angegebene Passwort ist leider Falsch";
+<br>	}
+<br>?&gt;
+
+
+
+
+</body>
+</html>

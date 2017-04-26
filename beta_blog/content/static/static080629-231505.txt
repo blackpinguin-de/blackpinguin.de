@@ -1,0 +1,16 @@
+VERSION|0.5.1|SUBJECT|Impressum|CONTENT|
+Urheber u. ggf. Eigentümer:
+Robin Ladiges
+
+Addresse:
+Krupunder Weg 6
+D-22523 Hamburg
+
+Telefonnummer:
+040 / 40 16 30 38
+
+E-Mail:
+Istador(at)blackpinguin(point)de
+
+ICQ:
+342-538-015|MENU_VISIBLE|on|DATE|1214774235

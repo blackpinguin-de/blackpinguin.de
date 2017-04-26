@@ -1,0 +1,7 @@
+VERSION|0.5.1|SUBJECT|Beta NOW|CONTENT|Beta ist gestartet.
+Noch keine eMail :(
+Mail-Server läuft und arbeitet.
+
+US-Seiten sind online. Account erweiterbar, Chars kopierbar, Client downloadbar (sehr langsam :) ).
+
+EU-Seiten sind auf den gleichen Stand wie die letzten Wochen ...|CATEGORIES|5|IP-ADDRESS|127.0.0.1|CREATEDBY|admin|DATE|1216364036

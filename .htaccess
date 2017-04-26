@@ -1,0 +1,14 @@
+ErrorDocument 400 /?s=400
+ErrorDocument 401 /?s=401
+ErrorDocument 403 /?s=403
+ErrorDocument 404 /?s=404
+ErrorDocument 500 /?s=500
+ErrorDocument 501 /?s=501
+ErrorDocument 502 /?s=502
+ErrorDocument 503 /?s=503
+
+<Files imp.html>
+  AddType application/x-httpd-php .html
+</Files>
+
+Options -Indexes

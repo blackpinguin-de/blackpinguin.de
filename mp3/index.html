@@ -1,0 +1,87 @@
+<link rel="stylesheet" type="text/css" href="mp3.css">
+
+
+
+<script type="text/javascript" src="mp3.js">
+</script>
+
+
+
+
+<script type="text/javascript">
+
+var t_audio = new Array(
+//new Array("mp3s/d.mp3","Portal - Still Alive","audio/mpeg"),
+//new Array("mp3s/b.mp3","In Extremo - Spielmannsfluch","audio/mpeg"),
+//new Array("mp3s/f.mp3","Jan Hegenberg - Der Heilär","audio/mpeg"),
+//new Array("mp3s/e.mp3","Schandmaul - Der Kurier","audio/mpeg"),
+//new Array("mp3s/a.mp3","Akeboshi - Wind","audio/mpeg"),
+//new Array("mp3s/c.mp3","Nobodyknows+ - El Mirador","audio/mpeg")
+
+new Array("mp3s/01.mp3","Tin Soldier - Soldier | cc by-nc-sa 3.0","audio/mpeg"),
+new Array("mp3s/02.mp3","Amity in Fame - Dinner For One | cc by-nc-sa 3.0","audio/mpeg"),
+new Array("mp3s/03.mp3","Amelie - do it over | cc by-nc-sa 2.5","audio/mpeg"),
+new Array("mp3s/04.mp3","pornophonique - sad robot | cc by-nc-nd 2.0 de","audio/mpeg"),
+new Array("mp3s/04.mp3","pornophonique - game over | cc by-nc-nd 2.0 de","audio/mpeg")
+);
+
+</script>
+
+
+
+
+
+
+<div id="mp3container" name="mp3container">
+<script type="text/javascript">
+document.write("<object id=\"mp3\" name=\"mp3\" data=\""+t_audio[0][0]+"\" type=\""+t_audio[0][2]+"\"></object>");
+</script>
+</div>
+
+
+
+<div id="imgcont">
+<img src="mp3img/backward.bmp" onclick="backward();" alt="backward"><img src="mp3img/rewind.bmp" onclick="rewind();" alt="rewind"><img src="mp3img/pause.bmp" onclick="pause();" alt="pause"><img src="mp3img/stop.bmp" onclick="stop();" alt=\"stop"><img src="mp3img/forward.bmp" onclick="forward();" alt="forward">
+</div>
+
+<img src="mp3img/minus.bmp" onclick="voldown();" alt="volume down" align="left">
+<table align="left" id="volumecont" name="volumecont" style="width:60px;height:20px;background:#000000;padding:0px;border-collapse:separate;border-spacing:0px;">
+<tr>
+	<td id="volumea" name="volumea" style="width:100%;background:#00FF00;top:0;left:0;" align="left"></td>
+	<td id="volumeb" name="volumeb" style="top:0;left:0;"></td>
+</tr>
+</table>
+<img src="mp3img/plus.bmp" onclick="volup();" alt="volume up">
+
+
+
+<br>
+<select id="tracks" name="tracks" size="10" onchange="selectcng();">
+<script type="text/javascript">
+for(i=0;i<t_audio.length;i++)
+{
+document.write("<option value=\""+i+"\"");
+if(playing==i){document.write(" selected");}
+document.write(">"+t_audio[i][1]+"</option>");
+}
+</script>
+</select>
+
+
+
+<script type="text/javascript">
+cngmp3();
+</script>
+
+
+
+
+
+<br>
+<br>Musik-Lizenzen:
+<br><a href="http://creativecommons.org/licenses/by-nc-sa/2.5/" target="_blank">cc by-nc-sa 2.5</a>
+<br><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">cc by-nc-sa 3.0</a>
+<br><a href="http://creativecommons.org/licenses/by-nc-nd/2.0/de/" target="_blank">cc by-nc-nd 2.0 de</a>
+<br>
+<br>Diese Seite, der Quelltext und die Bilder sind unlizensiert (alle Rechte bei mir, da ich der Urheber). 
+

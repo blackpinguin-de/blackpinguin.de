@@ -1,0 +1,5 @@
+VERSION|0.5.1|SUBJECT|BlizzCon und WWI Keys nicht bestätigt für WotLK|CONTENT|Zur FAQ zu der gestern gestarteten anmeldung zur Auslosung für die WotLK Beta wird nochmal explizit darauf hingewiesen, dass noch nicht bestätigt wurde, dass die Beta-Keys der BlizzCon2007 und der WWI2008 für WotLK sind.
+Personen mit Keys der BlizzCon und WWI wird geraten sich seinen Account für die Auslosung einzutragen, fals man an der Beta teilnehmen möchte.
+
+Entgegen Gerüchten von verschiedenen Seiten wird in der FAQ erwähnt das man sich selbst aussucht mit welchen Account man der Beta eintritt. Also man bekommt einen Key per eMail, den man dann einen seiner Accounts geben kann. 
+Dadurch gibt es für eBay wieder einiges an Gebühren.|CATEGORIES|5|relatedlink|http://forums.wow-europe.com/thread.html?topicId=4754356261&amp;sid=3|IP-ADDRESS|85.177.195.3|DATE|1215176803|CREATEDBY|admin

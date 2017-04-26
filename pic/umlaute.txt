@@ -1,0 +1,11 @@
+<?php
+
+include("../inhalt/connect.php");
+
+$text = "World of Warcraft&trade; and Blizzard Entertainment&reg;<br>are all trademarks or registered trademarks of<br>Blizzard Entertainment in the United States <br>and/or other countries.<br><br>These terms and all related materials, logos, and <br>images are copyright &copy; Blizzard Entertainment.<br><br>This site is in no way associated with<br>Blizzard Entertainment&reg;.";
+$sql="UPDATE `pictures` SET `text` = '$text'  WHERE `kategorie` = 'wotlkbeta' ";
+
+mysql_query($sql);
+
+mysql_close($verbindung); 
+?>

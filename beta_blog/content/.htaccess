@@ -1,0 +1,9 @@
+IndexIgnore *
+
+<Files .htaccess>
+Require all denied
+</Files>
+
+<Files *.txt>
+Require all denied
+</Files>
