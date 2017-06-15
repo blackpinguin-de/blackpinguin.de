@@ -1,6 +1,6 @@
 ﻿<?php
-include_once("/rcl/www/bp/inhalt/connect.php");
 include_once("/rcl/www/funktionen.php");
+include_once("/rcl/www/bp/inhalt/connect.php");
 include("/rcl/www/bp/inhalt/counter.php");
 $site = get("s");
 if($site != ""){

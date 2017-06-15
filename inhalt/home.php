@@ -1,9 +1,10 @@
 ﻿<?php
-$page=get("page");
+$page = (int) get("page");
 
 $abb = "SELECT * FROM `news` ";
 $erb = mysql_query($abb);
 $piccount = 0;
+$ncount = 0;
   while($row = mysql_fetch_object($erb))
 	{
 	$ncount++;
@@ -15,8 +16,7 @@ $pageatonce=5;
 $maxpages = ceil($ncount/$nperpage);
 
 
-if($page=="")
-{$page  = 1;}
+if($page=="") {$page  = 1;}
 
 $pageb=$page;
 

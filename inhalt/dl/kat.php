@@ -34,9 +34,10 @@ $abb = "SELECT * FROM `dl_project` ";
 
 $erb = mysql_query($abb);
 $piccount = 0;
+$ncount = 0;
   while($row = mysql_fetch_object($erb))
     {
-$ncount++;
+    $ncount++;
     }
 $nperpage=10;
 $pageatonce=5;

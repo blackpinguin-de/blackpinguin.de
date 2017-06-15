@@ -1,6 +1,6 @@
 <?php
-include("inhalt/connect.php");
 include("../funktionen.php");
+include("inhalt/connect.php");
 $fileid = (int) get('id');
 
 $abfrage = "SELECT * FROM `dl_files` WHERE `file_id` = $fileid"; 

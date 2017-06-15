@@ -1,6 +1,6 @@
 ﻿<?php
-include("inhalt/connect.php");
 include("funktionen.php");
+include("inhalt/connect.php");
 include("inhalt/counter.php");
 ?>
 <!doctype html public "-//W3C//DTD HTML 4.01 Transitional//EN">

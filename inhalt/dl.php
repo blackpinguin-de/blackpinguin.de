@@ -2,7 +2,6 @@
 $page = get("page");
 
 
-
 echo "<div class=\"style-dunkel\" style=\"text-align:center;width:100%;height:25px;line-height:25px;margin-bottom:20px;\">";
 echo "Downloads</div>";
 
@@ -14,6 +13,7 @@ echo "Downloads</div>";
 $abb = "SELECT * FROM `dl_kat` "; 
 $erb = mysql_query($abb);
 $piccount = 0;
+$ncount = 0;
   while($row = mysql_fetch_object($erb))
     {
     $ncount++;

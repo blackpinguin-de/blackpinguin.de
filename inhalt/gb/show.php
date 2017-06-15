@@ -4,6 +4,7 @@ $page=get("page");
 $abb = "SELECT * FROM `posts` "; 
 $erb = mysql_query($abb);
 $piccount = 0;
+$ncount = 0;
   while($row = mysql_fetch_object($erb))
     {
 	$ncount++;

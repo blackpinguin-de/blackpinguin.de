@@ -4,29 +4,30 @@ $abfrage = "SELECT * FROM `dl_project` WHERE `project_id` = $id ";
 $ergebnis = mysql_query($abfrage);
 while($row = mysql_fetch_object($ergebnis))
 	{
-	$id=$row->project_id;
-	$caption=$row->project_name;
-	$html=$row->project_html;
-	$author=$row->project_author;
-	$kat_id=$row->kat_id;
+	$id = $row->project_id;
+	$caption = $row->project_name;
+	$html = $row->project_html;
+	$author = $row->project_author;
+	$kat_id = $row->kat_id;
 	}
 
 $abfrage = "SELECT * FROM `dl_kat` WHERE `kat_id` = $kat_id ";
 $ergebnis = mysql_query($abfrage);
 while($row = mysql_fetch_object($ergebnis))
 	{
-	$kat_name=$row->kat_name;
+	$kat_name = $row->kat_name;
 	}
 
 
-$rcount=0;
-$rateamm=0;
+$rcount = 0;
+$rateamm = 0;
 $abfrage = "SELECT * FROM `dl_rating` WHERE `project_id` = $id ";
 $ergebnis = mysql_query($abfrage);
+$ramm = 0;
 while($row = mysql_fetch_object($ergebnis))
 	{
 	$rcount++;
-	$ramm+=$row->rating;
+	$ramm += $row->rating;
 	}
 
 
