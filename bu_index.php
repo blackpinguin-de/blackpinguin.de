@@ -77,10 +77,10 @@ ban_create("Impressum","imp");
 <div id="content" style="position:relative;left:20px;width:460px;color:#FFFFFF;"> 
 <span style="font-size:16pt;">Browser mit JavaScript?</span>
 <span style="font-size:8pt;">
-<br><br>Diese Seite ist für <a href="http://www.mozilla-europe.org/" target="_blank">Mozilla Firefox</a> und <a href="http://www.apple.com/de/safari/" target="_blank">Apple Safari</a> konzipiert.
+<br><br>Diese Seite ist für <a href="http://www.mozilla-europe.org/" target="_blank" rel="noopener">Mozilla Firefox</a> und <a href="http://www.apple.com/de/safari/" target="_blank" rel="noopener">Apple Safari</a> konzipiert.
 <br>Sollten bei Ihnen unter einem anderem Browser Probleme auftreten, haben Sie Pech.
 <br>Bei Problemen mit Mozilla Firefox oder Apple Safari schreiben Sie mir bitte eine eMail.
-<br><br><a href="inhalt/imp.php" target="_blank">Impressum</a>
+<br><br><a href="inhalt/imp.php" target="_blank" rel="noopener">Impressum</a>
 </span>
 </div>
 </div>

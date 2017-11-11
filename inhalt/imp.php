@@ -6,7 +6,7 @@
 
 
 <div style="width:100%;position:absolute;text-align:center;font-size:15px;font-weight:bold;">
-Inhaltlich Verantwortlich im Sinne von <a href="http://bundesrecht.juris.de/tmg/__5.html" target="_blank">§ 5 TMG</a>
+Inhaltlich Verantwortlich im Sinne von <a href="http://bundesrecht.juris.de/tmg/__5.html" target="_blank" rel="noopener">§ 5 TMG</a>
 </div>
 
 
@@ -29,7 +29,7 @@ Inhaltlich Verantwortlich im Sinne von <a href="http://bundesrecht.juris.de/tmg/
 <div style="top:116px;left:0%;width:100%;position:absolute;">
   <div class="style-dunkel" style="height:44px;line-height:22px;left:0%;width:24.5%;position:absolute;padding-left:5px;">E-Mail</div>
   <div class="style-hell" style="height:44px;line-height:22px;left:26%;width:74%;position:absolute;padding-left:5px;">
-    robin(point)ladiges(at)web(point)de <a href="rlweb.txt" target="_blank">(Zertifikat)</a>
+    robin(point)ladiges(at)web(point)de <a href="rlweb.txt" target="_blank" rel="noopener">(Zertifikat)</a>
     <br>Istador(at)blackpinguin(point)de
   </div>
 </div>
@@ -37,7 +37,7 @@ Inhaltlich Verantwortlich im Sinne von <a href="http://bundesrecht.juris.de/tmg/
 <div style="top:162px;left:0%;width:100%;position:absolute;">
   <div class="style-dunkel" style="height:22px;line-height:22px;left:0%;width:24.5%;position:absolute;padding-left:5px;">ICQ</div>
   <div class="style-hell" style="height:22px;line-height:22px;left:26%;width:74%;position:absolute;padding-left:5px;text-decoration:line-through;">
-    <a href="http://www.icq.com/people/342538015/" target="_blank">342-538-015</a>
+    <a href="http://www.icq.com/people/342538015/" target="_blank" rel="noopener">342-538-015</a>
   </div>
 </div>
 

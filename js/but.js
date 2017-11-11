@@ -34,7 +34,7 @@ function ban_create(text,url)
 
 function ban_createL(text,url)
 	{
-	document.writeln('<div style="height:38px;"><a class="banner" onMouseOver="javascript:ban_in(this);" onMouseOut="javascript:ban_out(this);" href="'+url+'" target="_blank">'+text+'</a></div>');
+	document.writeln('<div style="height:38px;"><a class="banner" onMouseOver="javascript:ban_in(this);" onMouseOut="javascript:ban_out(this);" href="'+url+'" target="_blank" rel="noopener">'+text+'</a></div>');
 	buttoncountL++;
 	}
 

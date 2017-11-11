@@ -110,5 +110,5 @@ echo "<div class=\"style-dunkel\" style=\"position:absolute;padding-left:5px;tex
 echo "<div class=\"style-hell\" style=\"position:absolute;padding-left:5px;text-align:left;width:68%;left:27%;\">$dlcount</div>";
 echo "</div>";
 
-echo "<br><br><div style=\"height:38px;\"><a class=\"banner\" href=\"download.php?id=$id\" style=\"position:absolute;left:200px;\" target=\"_blank\" onMouseOver=\"javascript:ban_in(this);\" onMouseOut=\"javascript:ban_out(this);\">&gt; Download &lt;</a></div>";
+echo "<br><br><div style=\"height:38px;\"><a class=\"banner\" href=\"download.php?id=$id\" style=\"position:absolute;left:200px;\" target=\"_blank\" rel=\"noopener\" onMouseOver=\"javascript:ban_in(this);\" onMouseOut=\"javascript:ban_out(this);\">&gt; Download &lt;</a></div>";
 ?>

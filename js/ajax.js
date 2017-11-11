@@ -1,9 +1,9 @@
 ﻿var loading = false;
 
 var loadingtext = "<span style='font-size:16pt;'>Seite wird geladen ...</span><span style='font-size:8pt;'><br><br>Diese Seite ist f&uuml;r ";
-loadingtext += "<a href='https://mozilla.org/firefox/' target='_blank'>Mozilla Firefox</a> konzipiert.";
+loadingtext += "<a href='https://mozilla.org/firefox/' target='_blank' rel='noopener'>Mozilla Firefox</a> konzipiert.";
 loadingtext += "<br>Sollten bei Ihnen unter einem anderem Browser Probleme auftreten, haben Sie Pech.";
-loadingtext += "<br>Bei Problemen mit Mozilla Firefox schreiben Sie mir bitte eine eMail.<br><br><a href='imp.html' target='_blank'>Impressum</a></span>";
+loadingtext += "<br>Bei Problemen mit Mozilla Firefox schreiben Sie mir bitte eine eMail.<br><br><a href='imp.html' target='_blank' rel='noopener'>Impressum</a></span>";
 
 function callback(data, serverStatus, url, container){
 var cont = document.getElementById(container);

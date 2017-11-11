@@ -3,9 +3,9 @@ var req = null;
 var loading = false;
 
 var loadingtext = "<span style='font-size:16pt;'>Seite wird geladen ...</span><span style='font-size:8pt;'><br><br>Diese Seite ist f&uuml;r ";
-loadingtext += "<a href='http://www.mozilla-europe.org/' target='_blank'>Mozilla Firefox</a> und <a href='http://www.apple.com/de/safari/' target='_blank'>Apple Safari</a> konzipiert.";
+loadingtext += "<a href='http://www.mozilla-europe.org/' target='_blank' rel='noopener'>Mozilla Firefox</a> und <a href='http://www.apple.com/de/safari/' target='_blank' rel='noopener'>Apple Safari</a> konzipiert.";
 loadingtext += "<br>Sollten bei Ihnen unter einem anderem Browser Probleme auftreten, haben Sie Pech.";
-loadingtext += "<br>Bei Problemen mit Mozilla Firefox oder Apple Safari schreiben Sie mir bitte eine eMail.<br><br><a href='inhalt/imp.php' target='_blank'>Impressum</a></span>";
+loadingtext += "<br>Bei Problemen mit Mozilla Firefox oder Apple Safari schreiben Sie mir bitte eine eMail.<br><br><a href='inhalt/imp.php' target='_blank' rel='noopener'>Impressum</a></span>";
 
 
 

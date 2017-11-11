@@ -65,10 +65,10 @@ if($site != ""){
 		<div id="content">
 			<span style="font-size:12pt;">Browser mit JavaScript?</span>
 			<span style="font-size:8pt;">
-			<br><br>Diese Seite ist f&uuml;r <a href="https://mozilla.org/firefox/" target="_blank">Mozilla Firefox</a> konzipiert.
+			<br><br>Diese Seite ist f&uuml;r <a href="https://mozilla.org/firefox/" target="_blank" rel="noopener">Mozilla Firefox</a> konzipiert.
 			<br>Sollten bei Ihnen unter einem anderem Browser Probleme auftreten, haben Sie Pech.
 			<br>Bei Problemen mit Mozilla Firefox schreiben Sie mir bitte eine eMail.
-			<br><br><a href="imp.html" target="_blank">Impressum</a>
+			<br><br><a href="imp.html" target="_blank" rel="noopener">Impressum</a>
 			</span>
 		</div>
 		</div>
