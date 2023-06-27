@@ -30,8 +30,10 @@ if(animationLock==false)
 	init();
 	text_load(imgindex);
 
-	v_image.src = "/pic/med/" + b_url[imgindex];
-	bigurl = "/pic/big/" + b_url[imgindex];
+	var url = b_url[imgindex];
+	var exists = url != "/pic/nopic.png";
+	v_image.src = (exists ? "/pic/med/" + url : url);
+	bigurl = (exists ? "/pic/big/" + url : url);
 
 	img_load(imgindex);
 	fade_blackschleife = window.setInterval("showBlack()",20);
