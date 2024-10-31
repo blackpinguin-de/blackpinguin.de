@@ -1,0 +1,6 @@
+<?php
+$sqluser="";
+$sqlpasswd="";
+$sqlserver="localhost";
+$sqldatenbank="";
+?>
