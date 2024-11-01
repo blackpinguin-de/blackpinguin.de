@@ -34,7 +34,8 @@ obj_rFrame.style.top = ((sh/2)-(obj_rFrame.style.height/2)) + "px";
 
 function rVote(rating)
 {
-	ajaxget("dl&sub=4&id="+rate_proj_id+"&r="+rating,"content");
+	alert('Fehler: Keine Interaktion möglich! Dies ist ein Backup der eigentlichen Seite.');
+	//ajaxget("dl&sub=4&id="+rate_proj_id+"&r="+rating,"content");
 	rClose();
 /*
 if( rate_proj_id != -1)
