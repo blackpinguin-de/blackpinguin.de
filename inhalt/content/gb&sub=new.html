@@ -22,7 +22,7 @@ Ihr Eintrag
 <br>
 <br>
 <div style="text-align:right;">
-<input type="button" value="Zurück" onclick="javascript:ajaxpost('gb','content');">
+<input type="button" value="Zurück" onclick="javascript:ajaxget('gb','content');">
 <input type="button" value="Senden" 
 onclick="javascript:tform=document.forms['gb-post'];if(  isNotEmpty(tform.elements['p_name']) && isEmail(tform.elements['p_email'])  &&
 isNotEmpty(tform.elements['p_text'])  ){  ajaxpost('gb&sub=add','content');   }">
